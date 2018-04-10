@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2D6562207B4705007CC07E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D6561207B4705007CC07E /* AppDelegate.m */; };
+		2B2D6565207B4705007CC07E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D6564207B4705007CC07E /* ViewController.m */; };
+		2B2D6568207B4705007CC07E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D6566207B4705007CC07E /* Main.storyboard */; };
+		2B2D656A207B4705007CC07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D6569207B4705007CC07E /* Assets.xcassets */; };
+		2B2D656D207B4705007CC07E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D656B207B4705007CC07E /* LaunchScreen.storyboard */; };
+		2B2D6570207B4705007CC07E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D656F207B4705007CC07E /* main.m */; };
+		2B2D657A207B4706007CC07E /* GreatWallExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D6579207B4706007CC07E /* GreatWallExampleTests.m */; };
+		2B2D6585207B4706007CC07E /* GreatWallExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D6584207B4706007CC07E /* GreatWallExampleUITests.m */; };
+		2B2D6595207B5067007CC07E /* GreateWallUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D6594207B5067007CC07E /* GreateWallUtils.m */; };
+		2B2D6598207B54AA007CC07E /* GreateWallEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D6597207B54AA007CC07E /* GreateWallEngine.m */; };
+		2B2D65B2207B7730007CC07E /* NSObject+GWForward.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D65B1207B7730007CC07E /* NSObject+GWForward.m */; };
+		2B2D65B5207B78CB007CC07E /* GreatWallCrashProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D65B4207B78CB007CC07E /* GreatWallCrashProcessor.m */; };
+		2B2D65B8207B95C1007CC07E /* NSArray+GWForward.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D65B7207B95C1007CC07E /* NSArray+GWForward.m */; };
+		2B2D65BB207B9D04007CC07E /* NSDictionary+GWForward.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D65BA207B9D04007CC07E /* NSDictionary+GWForward.m */; };
+		2B2D65BE207B9EC1007CC07E /* NSString+GWForward.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D65BD207B9EC1007CC07E /* NSString+GWForward.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B2D6576207B4706007CC07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2D6555207B4705007CC07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2D655C207B4705007CC07E;
+			remoteInfo = GreatWallExample;
+		};
+		2B2D6581207B4706007CC07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2D6555207B4705007CC07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2D655C207B4705007CC07E;
+			remoteInfo = GreatWallExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2D655D207B4705007CC07E /* GreatWallExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatWallExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2D6560207B4705007CC07E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B2D6561207B4705007CC07E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B2D6563207B4705007CC07E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B2D6564207B4705007CC07E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B2D6567207B4705007CC07E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B2D6569207B4705007CC07E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B2D656C207B4705007CC07E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B2D656E207B4705007CC07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2D656F207B4705007CC07E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B2D6575207B4706007CC07E /* GreatWallExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatWallExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2D6579207B4706007CC07E /* GreatWallExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreatWallExampleTests.m; sourceTree = "<group>"; };
+		2B2D657B207B4706007CC07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2D6580207B4706007CC07E /* GreatWallExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatWallExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2D6584207B4706007CC07E /* GreatWallExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreatWallExampleUITests.m; sourceTree = "<group>"; };
+		2B2D6586207B4706007CC07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2D6593207B5067007CC07E /* GreateWallUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreateWallUtils.h; sourceTree = "<group>"; };
+		2B2D6594207B5067007CC07E /* GreateWallUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreateWallUtils.m; sourceTree = "<group>"; };
+		2B2D6596207B54AA007CC07E /* GreateWallEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreateWallEngine.h; sourceTree = "<group>"; };
+		2B2D6597207B54AA007CC07E /* GreateWallEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreateWallEngine.m; sourceTree = "<group>"; };
+		2B2D65B0207B7730007CC07E /* NSObject+GWForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GWForward.h"; sourceTree = "<group>"; };
+		2B2D65B1207B7730007CC07E /* NSObject+GWForward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GWForward.m"; sourceTree = "<group>"; };
+		2B2D65B3207B78CB007CC07E /* GreatWallCrashProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreatWallCrashProcessor.h; sourceTree = "<group>"; };
+		2B2D65B4207B78CB007CC07E /* GreatWallCrashProcessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreatWallCrashProcessor.m; sourceTree = "<group>"; };
+		2B2D65B6207B95C1007CC07E /* NSArray+GWForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+GWForward.h"; sourceTree = "<group>"; };
+		2B2D65B7207B95C1007CC07E /* NSArray+GWForward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GWForward.m"; sourceTree = "<group>"; };
+		2B2D65B9207B9D04007CC07E /* NSDictionary+GWForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GWForward.h"; sourceTree = "<group>"; };
+		2B2D65BA207B9D04007CC07E /* NSDictionary+GWForward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GWForward.m"; sourceTree = "<group>"; };
+		2B2D65BC207B9EC1007CC07E /* NSString+GWForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GWForward.h"; sourceTree = "<group>"; };
+		2B2D65BD207B9EC1007CC07E /* NSString+GWForward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GWForward.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B2D655A207B4705007CC07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2D6572207B4706007CC07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2D657D207B4706007CC07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2D6554207B4705007CC07E = {
+			isa = PBXGroup;
+			children = (
+				2B2D655F207B4705007CC07E /* GreatWallExample */,
+				2B2D6578207B4706007CC07E /* GreatWallExampleTests */,
+				2B2D6583207B4706007CC07E /* GreatWallExampleUITests */,
+				2B2D655E207B4705007CC07E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B2D655E207B4705007CC07E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D655D207B4705007CC07E /* GreatWallExample.app */,
+				2B2D6575207B4706007CC07E /* GreatWallExampleTests.xctest */,
+				2B2D6580207B4706007CC07E /* GreatWallExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B2D655F207B4705007CC07E /* GreatWallExample */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D6592207B503D007CC07E /* GreatWall */,
+				2B2D6560207B4705007CC07E /* AppDelegate.h */,
+				2B2D6561207B4705007CC07E /* AppDelegate.m */,
+				2B2D6563207B4705007CC07E /* ViewController.h */,
+				2B2D6564207B4705007CC07E /* ViewController.m */,
+				2B2D6566207B4705007CC07E /* Main.storyboard */,
+				2B2D6569207B4705007CC07E /* Assets.xcassets */,
+				2B2D656B207B4705007CC07E /* LaunchScreen.storyboard */,
+				2B2D656E207B4705007CC07E /* Info.plist */,
+				2B2D656F207B4705007CC07E /* main.m */,
+			);
+			path = GreatWallExample;
+			sourceTree = "<group>";
+		};
+		2B2D6578207B4706007CC07E /* GreatWallExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D6579207B4706007CC07E /* GreatWallExampleTests.m */,
+				2B2D657B207B4706007CC07E /* Info.plist */,
+			);
+			path = GreatWallExampleTests;
+			sourceTree = "<group>";
+		};
+		2B2D6583207B4706007CC07E /* GreatWallExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D6584207B4706007CC07E /* GreatWallExampleUITests.m */,
+				2B2D6586207B4706007CC07E /* Info.plist */,
+			);
+			path = GreatWallExampleUITests;
+			sourceTree = "<group>";
+		};
+		2B2D6592207B503D007CC07E /* GreatWall */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D6596207B54AA007CC07E /* GreateWallEngine.h */,
+				2B2D6597207B54AA007CC07E /* GreateWallEngine.m */,
+				2B2D6593207B5067007CC07E /* GreateWallUtils.h */,
+				2B2D6594207B5067007CC07E /* GreateWallUtils.m */,
+				2B2D65B0207B7730007CC07E /* NSObject+GWForward.h */,
+				2B2D65B1207B7730007CC07E /* NSObject+GWForward.m */,
+				2B2D65B6207B95C1007CC07E /* NSArray+GWForward.h */,
+				2B2D65B7207B95C1007CC07E /* NSArray+GWForward.m */,
+				2B2D65B9207B9D04007CC07E /* NSDictionary+GWForward.h */,
+				2B2D65BA207B9D04007CC07E /* NSDictionary+GWForward.m */,
+				2B2D65BC207B9EC1007CC07E /* NSString+GWForward.h */,
+				2B2D65BD207B9EC1007CC07E /* NSString+GWForward.m */,
+				2B2D65B3207B78CB007CC07E /* GreatWallCrashProcessor.h */,
+				2B2D65B4207B78CB007CC07E /* GreatWallCrashProcessor.m */,
+			);
+			path = GreatWall;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B2D655C207B4705007CC07E /* GreatWallExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2D6589207B4706007CC07E /* Build configuration list for PBXNativeTarget "GreatWallExample" */;
+			buildPhases = (
+				2B2D6559207B4705007CC07E /* Sources */,
+				2B2D655A207B4705007CC07E /* Frameworks */,
+				2B2D655B207B4705007CC07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreatWallExample;
+			productName = GreatWallExample;
+			productReference = 2B2D655D207B4705007CC07E /* GreatWallExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B2D6574207B4706007CC07E /* GreatWallExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2D658C207B4706007CC07E /* Build configuration list for PBXNativeTarget "GreatWallExampleTests" */;
+			buildPhases = (
+				2B2D6571207B4706007CC07E /* Sources */,
+				2B2D6572207B4706007CC07E /* Frameworks */,
+				2B2D6573207B4706007CC07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2D6577207B4706007CC07E /* PBXTargetDependency */,
+			);
+			name = GreatWallExampleTests;
+			productName = GreatWallExampleTests;
+			productReference = 2B2D6575207B4706007CC07E /* GreatWallExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B2D657F207B4706007CC07E /* GreatWallExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2D658F207B4706007CC07E /* Build configuration list for PBXNativeTarget "GreatWallExampleUITests" */;
+			buildPhases = (
+				2B2D657C207B4706007CC07E /* Sources */,
+				2B2D657D207B4706007CC07E /* Frameworks */,
+				2B2D657E207B4706007CC07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2D6582207B4706007CC07E /* PBXTargetDependency */,
+			);
+			name = GreatWallExampleUITests;
+			productName = GreatWallExampleUITests;
+			productReference = 2B2D6580207B4706007CC07E /* GreatWallExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2D6555207B4705007CC07E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GIKI;
+				TargetAttributes = {
+					2B2D655C207B4705007CC07E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2B2D6574207B4706007CC07E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B2D655C207B4705007CC07E;
+					};
+					2B2D657F207B4706007CC07E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B2D655C207B4705007CC07E;
+					};
+				};
+			};
+			buildConfigurationList = 2B2D6558207B4705007CC07E /* Build configuration list for PBXProject "GreatWallExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B2D6554207B4705007CC07E;
+			productRefGroup = 2B2D655E207B4705007CC07E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B2D655C207B4705007CC07E /* GreatWallExample */,
+				2B2D6574207B4706007CC07E /* GreatWallExampleTests */,
+				2B2D657F207B4706007CC07E /* GreatWallExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B2D655B207B4705007CC07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D656D207B4705007CC07E /* LaunchScreen.storyboard in Resources */,
+				2B2D656A207B4705007CC07E /* Assets.xcassets in Resources */,
+				2B2D6568207B4705007CC07E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2D6573207B4706007CC07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2D657E207B4706007CC07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2D6559207B4705007CC07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D6565207B4705007CC07E /* ViewController.m in Sources */,
+				2B2D6595207B5067007CC07E /* GreateWallUtils.m in Sources */,
+				2B2D6570207B4705007CC07E /* main.m in Sources */,
+				2B2D65BE207B9EC1007CC07E /* NSString+GWForward.m in Sources */,
+				2B2D65B2207B7730007CC07E /* NSObject+GWForward.m in Sources */,
+				2B2D65B8207B95C1007CC07E /* NSArray+GWForward.m in Sources */,
+				2B2D6598207B54AA007CC07E /* GreateWallEngine.m in Sources */,
+				2B2D65B5207B78CB007CC07E /* GreatWallCrashProcessor.m in Sources */,
+				2B2D6562207B4705007CC07E /* AppDelegate.m in Sources */,
+				2B2D65BB207B9D04007CC07E /* NSDictionary+GWForward.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2D6571207B4706007CC07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D657A207B4706007CC07E /* GreatWallExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2D657C207B4706007CC07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D6585207B4706007CC07E /* GreatWallExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B2D6577207B4706007CC07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2D655C207B4705007CC07E /* GreatWallExample */;
+			targetProxy = 2B2D6576207B4706007CC07E /* PBXContainerItemProxy */;
+		};
+		2B2D6582207B4706007CC07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2D655C207B4705007CC07E /* GreatWallExample */;
+			targetProxy = 2B2D6581207B4706007CC07E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B2D6566207B4705007CC07E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2D6567207B4705007CC07E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B2D656B207B4705007CC07E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2D656C207B4705007CC07E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B2D6587207B4706007CC07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B2D6588207B4706007CC07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B2D658A207B4706007CC07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GreatWallExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GreatWallExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B2D658B207B4706007CC07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GreatWallExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GreatWallExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B2D658D207B4706007CC07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GreatWallExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GreatWallExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreatWallExample.app/GreatWallExample";
+			};
+			name = Debug;
+		};
+		2B2D658E207B4706007CC07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GreatWallExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GreatWallExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreatWallExample.app/GreatWallExample";
+			};
+			name = Release;
+		};
+		2B2D6590207B4706007CC07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GreatWallExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GreatWallExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreatWallExample;
+			};
+			name = Debug;
+		};
+		2B2D6591207B4706007CC07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GreatWallExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GIKI.GreatWallExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreatWallExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2D6558207B4705007CC07E /* Build configuration list for PBXProject "GreatWallExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2D6587207B4706007CC07E /* Debug */,
+				2B2D6588207B4706007CC07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2D6589207B4706007CC07E /* Build configuration list for PBXNativeTarget "GreatWallExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2D658A207B4706007CC07E /* Debug */,
+				2B2D658B207B4706007CC07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2D658C207B4706007CC07E /* Build configuration list for PBXNativeTarget "GreatWallExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2D658D207B4706007CC07E /* Debug */,
+				2B2D658E207B4706007CC07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2D658F207B4706007CC07E /* Build configuration list for PBXNativeTarget "GreatWallExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2D6590207B4706007CC07E /* Debug */,
+				2B2D6591207B4706007CC07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B2D6555207B4705007CC07E /* Project object */;
+}
